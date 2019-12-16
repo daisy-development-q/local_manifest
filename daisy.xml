@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="daisy" fetch="https://github.com/daisy-development-q" revision="aex-10.0" />
+
+<!-- Device -->
+<project path="device/xiaomi/daisy" name="android_device_google_shamrock" remote="daisy" revision="aex-10.0" />
+
+<!-- Common Device -->
+<project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="daisy" revision="aex-10.0" />
+
+<!-- Kernel -->
+<project path="kernel/xiaomi/daisy" name="msm-4.9" remote="daisy" revision="aex-4.9.168" />
+
+<!-- Vendor -->
+<project path="vendor/xiaomi" name="vendor_xiaomi_daisy" remote="daisy" revision="aex-10.0" />
+
+</manifest>
